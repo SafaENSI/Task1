@@ -1,10 +1,11 @@
-// ********First working day - Task 1 *********** //
+// *********First working day - Task 1 *********** //
 #include <bits/stdc++.h>
 using namespace std;
 
 
 // find2Numbers function returns true if there is a pair numbers in the given vector vect with sum equal to 'sum'
 //  Also, prints the pair numbers and multiplying them.
+
 bool find2Numbers(vector<int> vect, int vect_size, int sum)
 {
     int r,l;
@@ -33,6 +34,7 @@ bool find2Numbers(vector<int> vect, int vect_size, int sum)
 
 // find3Numbers function returns true if there is is triplet in the given vector vect with sum equal to 'sum'
 //  Also, prints the print the triplet and multiplying them.
+
 bool find3Numbers(vector<int> vect, int vect_size, int sum)
 {
     int l, r;
